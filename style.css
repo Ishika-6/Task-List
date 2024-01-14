@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    font-weight: 700;
+    background-color: #384152;
+    padding: 30px;
+    text-align: center;
+}
+.head{
+    /* padding: 30px; */
+    color: #bac5cd;
+    font-size: 3rem;
+}
+.addtask{
+    width: 62%;
+    /* margin-left: 7%; */
+    height: 30px;
+    padding: 25px;
+    background-color: #202938;
+    font-size: 1rem;
+    color: #bac5cd;
+    margin-top: 40px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    display: inline;
+}
+.mirror{
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+    height: 90%;
+    width:70%;
+    margin: 20px 15% 0 15%;
+}
+.addtaskBtn{
+    /* display: inline; */
+    margin-top: 10px;
+
+    margin-left: 20px;
+    /* color: #bac5cd; */
+    font-size: 1.2rem;
+   color: #bac5cd;
+    font-weight: 800;
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    background-color: #202938;
+    /* box-shadow: 5px 5px 30px #20293861; */
+    /* border: 1px solid #202938; */
+
+
+    border-radius: 10px;
+}
+
+.list-head{
+    color: #bac5cd;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 5%;
+}
+.task-list{
+    margin-top: 20px;
+    color: #bac5cd;
+    font-size: 1.2rem;
+}
+li{
+    width: 70%;
+    /* text-align: center; */
+    margin-left: 10%;
+    text-align: left;
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20%;
+    background-color: #202938;
+    margin-bottom: 15px;
+}
+.fa-trash-arrow-up{
+    /* margin-left: 82%; */
+    
+     position: absolute;
+     right: 22%;
+     /* right:470px ; */
+     height: 20px;
+    width: 20px;
+}
+.fa-circle-check{
+    margin-right: 2%;
+    position: relative;
+    left: 2px;
+    
+}
+.icon-check{
+    text-decoration: line-through;
+}
+.task-item{
+    text-decoration: line-through;
+}
+.fa-trash-arrow-up:hover{
+    color: #384152;
+    
+    
+    /* padding: 10px; */
+   
+}
+.fa-circle-check:hover{
+    fill: #384152;
+    color: #384152;
+}
